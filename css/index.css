@@ -1,3 +1,238 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
 }
+
+.container {
+    width: 1107px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    font-weight: 700;
+    color: #333333;
+}
+
+.hero {
+    background-color: grey;
+    padding-top: 93px;
+    padding-bottom: 240px;
+    color: white;
+}
+
+/* Start header */
+
+header {
+    margin-bottom: 145px;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+header nav ul a {
+    font-size: 18px;
+    line-height: calc(22 / 18);
+}
+
+header nav ul li:first-child a {
+    font-weight: bold;
+}
+
+/* Start hero-content */
+
+h1 {
+    font-size: 64px;
+    line-height: calc(78 / 64);
+    margin-bottom: 26px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    margin-bottom: 106px;
+}
+
+.hero-content a {
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    text-decoration: underline;
+}
+
+/* Start about */
+
+.about {
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+
+.about h2 {
+    margin-bottom: 76px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+/* Start skills */
+
+.skills {
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 135px;
+}
+
+.skills h2 {
+    margin-bottom: 82px;
+}
+
+.skills-row {
+    display: flex;
+    gap: 123px;
+}
+
+.skills-row img {
+    width: 350px;
+}
+
+.skills-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-list li:first-child {
+    padding-bottom: 45px;
+}
+
+.skills-item {
+    display: flex;
+    align-items: center;
+    gap: 66px;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+}
+
+.skills-key {
+    width: 125px;
+    font-weight: 600;
+}
+
+.progressbar {
+    height: 24px;
+    background-color: #F5D6AB;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.progressbar-percent {
+    background-color: #C66C49;
+    height: 100%;
+}
+
+/* Start portfolio */
+
+.portfolio {
+    padding-top: 93px;
+    padding-bottom: 139px;
+}
+
+.portfolio h2 {
+    margin-bottom: 86px;
+}
+
+.portfolio-row {
+    display: flex;
+    gap: 125px;
+}
+
+.portfolio-text {
+    width: 349px;
+    flex-shrink: 0;
+    color: #333333;
+}
+
+.portfolio-text h3 {
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.portfolio-text p {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+}
+
+.portfolio-images {
+    padding-top: 54px;
+    display: flex;
+    gap: 30px
+}
+
+.portfolio-column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 350px;
+}
+
+.portfolio-column:last-child {
+    width: 255px;
+}
+
+/* Start footer */
+
+footer {
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 189px;
+}
+
+footer h2 {
+    margin-bottom: 51px;
+}
+
+.footer-row {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    color: #333333;
+}
+
+.footer-row ul {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
